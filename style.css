@@ -1,0 +1,134 @@
+/* style.css */
+body, html{
+  height: 100%;
+  scroll-behavior: smooth;
+  
+}
+
+img {
+  max-width: 100%;
+  font-size: 50px;
+}
+
+.section-content {
+  padding: 80px 0;
+}
+
+/* navbar */
+.nav a {
+  background-image: linear-gradient(white, white);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+
+.nav a:hover{
+  background-size: 100% 5px, auto;
+}
+
+
+/* cover */
+#cover {
+  background: url(./img/background.JPG) center center no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  opacity: 0.8;
+  color: white;
+  height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-attachment: fixed;
+
+}
+
+#cover-caption{
+  width: 100%;
+}
+
+#cover a{
+  background-image: linear-gradient(white, white);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+
+#cover a:hover{
+  background-size: 100% 5px, auto;
+}
+
+/* about */
+
+#about {
+  background: white;
+}
+
+#about h3{
+  padding: 20px;
+}
+
+#about a{
+  color: white;
+  font-size: 25px;
+}
+
+.about-text {
+  background: rgb(0, 0, 0, 0.7);
+  color: white;
+  padding: 1.875rem;
+}
+ 
+#about h2{
+  padding: 25px;
+}
+
+#about a{
+  background-image: linear-gradient(white, white);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+
+#about a:hover{
+  background-size: 100% 5px, auto;
+}
+
+/* experience */
+#experience {
+  padding: 40px;
+  color: white;
+}
+
+/* projects */
+#projects .card-deck{
+  padding:40px;
+}
+
+/* contact */
+#contact {
+  background: #666;
+  color: white;
+}
+
+
+
+/* footer */
+#footer-main {
+  color: white;
+  font-size: 0.8rem;
+  padding: 2.5rem 0;
+}
+
+#footer-main a{
+  
+  color: white;
+  
+}
+
+
+
+
