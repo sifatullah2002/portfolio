@@ -1,2 +1,4 @@
+sifatullah2002.github.io
 
-A mock portfolio I created during quarantine because I was bored lol
+This is my portfolio in which I coded using HTML, CSS, and the Bootstrap framework. 
+
