@@ -25,13 +25,11 @@ img {
   background-repeat: no-repeat;
   background-position: center bottom;
   transition: all .2s ease-out;
-  
 }
 
 .nav a:hover{
   background-size: 100% 5px, auto;
 }
-
 
 /* cover */
 #cover {
@@ -66,7 +64,6 @@ img {
 }
 
 /* about */
-
 #about {
   background: white;
 }
@@ -74,11 +71,6 @@ img {
 #about h3{
   padding: 20px;
   letter-spacing: 5px;
-}
-
-#about a{
-  color: white;
-  font-size: 25px;
 }
 
 .about-text {
@@ -90,18 +82,6 @@ img {
 #about h2{
   padding: 25px;
   letter-spacing: 10px;
-}
-
-#about a{
-  background-image: linear-gradient(white, white);
-  background-size: 0 5px, auto;
-  background-repeat: no-repeat;
-  background-position: center bottom;
-  transition: all .2s ease-out;
-}
-
-#about a:hover{
-  background-size: 100% 5px, auto;
 }
 
 /* skills */
@@ -122,6 +102,30 @@ img {
 #projects h2{
   letter-spacing: 5px;
 }
+
+#projects a {
+  background-image: linear-gradient(white, white);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+
+#projects a:hover{
+  background-size: 100% 5px, auto;
+}
+
+#projects button {
+  background-image: linear-gradient(white, white);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+
+#projects button:hover{
+  background-size: 100% 5px, auto;
+}
 /* contact */
 #contact {
   background-color: rgb(239, 239, 239);
@@ -134,6 +138,17 @@ img {
   letter-spacing: 5px;
 }
 
+#contact a{
+  background-image: linear-gradient(white, white);
+  background-size: 0 5px, auto;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  transition: all .2s ease-out;
+}
+
+#contact a:hover{
+  background-size: 100% 5px, auto;
+}
 /* footer */
 #footer-main {
   color: white;
