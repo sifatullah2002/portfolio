@@ -37,14 +37,23 @@ img {
   background-position: fixed;
   background-size: cover;
   opacity: 0.8;
-  color: white;
   height: 100%;
-  text-align: center;
   display: flex;
   align-items: center;
   position: relative;
   background-attachment: fixed;
+  text-align: center;
 
+}
+
+#cover .about-text{
+  background: rgba(0,0,0,0.8);
+  color:white;
+  padding: 1.875rem;
+}
+
+#cover a{
+  color: white;
 }
 
 #cover-caption{
@@ -63,27 +72,6 @@ img {
   background-size: 100% 5px, auto;
 }
 
-/* about */
-#about {
-  background: white;
-}
-
-#about h3{
-  padding: 20px;
-  letter-spacing: 5px;
-}
-
-.about-text {
-  background: rgb(0, 0, 0, 0.7);
-  color: white;
-  padding: 1.875rem;
-}
- 
-#about h2{
-  padding: 25px;
-  letter-spacing: 10px;
-}
-
 /* skills */
 #experience {
   padding: 40px;
@@ -95,8 +83,13 @@ img {
 }
 
 /* projects */
+#projects {
+  background: url(./img/content_bg.jpg) center center no-repeat;
+}
+
 #projects .card-deck{
   padding:40px;
+  
 }
 
 #projects h2{
@@ -137,6 +130,7 @@ img {
 #footer-main a{
   color: white;
 }
+
 
 
 
