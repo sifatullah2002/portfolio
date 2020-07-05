@@ -7,6 +7,11 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- JS, Popper.js, and jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
@@ -28,12 +33,16 @@
       <span class="navbar-brand">
         <img src="./img/logo.png" width="30" height="30" alt="logo" loading="lazy"><span> Sifat Ullah</span>
       </span>
+      
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
     
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
           <li class="nav-item">
             <a class="nav-link" href="#experience">Skills</a>
           </li>
@@ -49,23 +58,38 @@
     
       <section id="cover">
         <div class="container container-fluid">
-          <div class="col-sm-5 text-center"> 
-            <div class="about-text">
-              <h2 class="" style="font-family: 'Raleway';">SIFAT ULLAH</h2>
-                <p class="lead">Hello! My name is Sifat. I'm a computer science student at the University of Buffalo.
-                                I'm confident in my coding skills and I love to teach myself new things.
-                                I'd love to take what I learned and make it work for you!
-                </p>
+          <div class="">
+              <h2 class="text-center" style="font-family: 'Raleway'; color: white;">SIFAT ULLAH</h2>
                 <div class="btn btn-group">
-                  <a href="" target="_blank" class="btn btn-md"><span class="fa fa-id-card-o"></span> RESUME</a>
-                  <a href="https://github.com/sifatullah2002" target="_blank" class="btn btn-md"><span class="fa fa-github"></span> GITHUB</a>
-                  <a href="https://www.linkedin.com/in/sifat-ullah-2910231a1/" target="_blank" class="btn btn-md"><span class="fa fa-linkedin "></span> LINKEDIN</a>
-            </div>
+                  <a href="" target="_blank" class="btn btn-sm"><span class="fa fa-id-card-o"></span> RESUME</a>
+                  <a href="https://github.com/sifatullah2002" target="_blank" class="btn btn-sm"><span class="fa fa-github"></span> GITHUB</a>
+                  <a href="https://www.linkedin.com/in/sifat-ullah-2910231a1/" target="_blank" class="btn btn-sm"><span class="fa fa-linkedin "></span> LINKEDIN</a>
+                </div>
           </div>
         </div>
-          
       </section> 
     <!--cover ends-->
+
+    <!--about-->
+    <div id="about">
+      <div class="container container-fluid">
+        <div class="section-content">
+          <div class="row">
+            
+              <div class="col-md-6">
+                <div class="about-text">
+                  <h2 class="text-center">ABOUT ME</h2>
+                  <p class="lead">Hello! My name is Sifat. I'm a computer science student at the University of Buffalo.
+                    I'm confident in my coding skills and I love to teach myself new things.
+                    I'd love to take what I learned and make it work for you!
+                  </p>
+                </div>
+              </div>
+               
+          </div>   
+        </div>      
+      </div>
+    </div>
     
     <!--Experience-->
     <section id="experience" class="bg-dark">
@@ -118,18 +142,18 @@
     <!--Experience ends-->
 
     <!--projects-->
-    <section id="projects">
+    <section id="projects" class="bg-dark">
       <div class="section-content">
         <div class="container">
             <h2 class="text-center">PROJECTS</h2>
         <div class="card-deck">
            
            <!--project one-->
-           <div class="card text-white bg-dark mb-3">
+           <div class="card text-white bg-light mb-3">
             <img src="./img/black.png" class="card-img-top" alt="">
             <div class="card-body">
-              <h5 class="card-title">project one</h5>
-              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempora est odit odio nostrum impedit? Excepturi deserunt voluptate ducimus architecto reprehenderit consectetur velit quas assumenda, ipsa aut, harum esse dolores!</p>
+              <h5 class="card-title" style="color: black;">project one</h5>
+              <p class="card-text" style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis tempora est odit odio nostrum impedit? Excepturi deserunt voluptate ducimus architecto reprehenderit consectetur velit quas assumenda, ipsa aut, harum esse dolores!</p>
               <div class="list-group"> 
                 <div class="btn-group">
                   <button type="button" class="btn btn-dark fa fa-github"><a href="#" target="_blank"></a></button>
@@ -143,11 +167,11 @@
           </div>
           
             <!--project two-->
-            <div class="card text-white bg-dark mb-3">
+            <div class="card text-white bg-light mb-3">
               <img src="./img/black.png" class="card-img-top" alt="">
               <div class="card-body">
-                <h5 class="card-title">project two</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet cupiditate temporibus animi ad, impedit pariatur eveniet iusto voluptate fugit. Numquam, quia excepturi? Qui animi repellat nulla accusamus natus doloremque dolores?</p>
+                <h5 class="card-title" style="color: black;">project two</h5>
+                <p class="card-text" style="color: black;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet cupiditate temporibus animi ad, impedit pariatur eveniet iusto voluptate fugit. Numquam, quia excepturi? Qui animi repellat nulla accusamus natus doloremque dolores?</p>
                 <div class="list-group"> 
                   <div class="btn-group">
                     <button type="button" class="btn btn-dark fa fa-github"><a href="#" target="_blank"></a></button>
@@ -161,11 +185,11 @@
             </div>
           
             <!--project three-->
-            <div class="card text-white bg-dark mb-3">
+            <div class="card text-white bg-light mb-3">
               <img src="./img/black.png" class="card-img-top" alt="">
               <div class="card-body">
-                <h5 class="card-title">project three</h5>
-                <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, dolore expedita! Accusamus et necessitatibus reprehenderit autem, tenetur sint. Reiciendis excepturi maxime repudiandae aut autem rem quod expedita magnam eligendi a?</p>
+                <h5 class="card-title" style="color: black;">project three</h5>
+                <p class="card-text" style="color: black;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia, dolore expedita! Accusamus et necessitatibus reprehenderit autem, tenetur sint. Reiciendis excepturi maxime repudiandae aut autem rem quod expedita magnam eligendi a?</p>
                 <div class="list-group"> 
                   <div class="btn-group">
                     <button type="button" class="btn btn-dark fa fa-github"><a href="#" target="_blank"></a></button>
@@ -185,7 +209,7 @@
     <!--projects ends-->
 
     <!--footer-->
-    <footer id="footer-main" class="footer-dark bg-dark">
+    <footer id="footer-main" class="footer-dark" style="background-color: black;">
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-3">
