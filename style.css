@@ -68,17 +68,20 @@ img {
 
 /* about */
 #about {
-  background: url(./img/intro.JPG) bottom center no-repeat;
+  background:  bottom center no-repeat;
   background-size: cover;
   padding: 50px;
+  margin: auto;
 }
 
-#about .about-text{
-  background: rgba(0,0,0,0.8);
+#about-text{
   color:white;
   padding: 1.875rem;
   align-content: center;
   opacity: 0.7;
+  padding-left: 150px;
+  padding-right: 150px;
+  font-size: 20px;
 }
 
 /* skills */
