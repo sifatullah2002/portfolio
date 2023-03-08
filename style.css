@@ -105,6 +105,10 @@ img {
   
 }
 
+#projects .card-body{
+  d-flex: 
+}
+
 #projects h2{
   letter-spacing: 5px;
   color: white;
